@@ -1,3 +1,5 @@
+// todo add view count
+
 $(document).ready(function () {
   addToViewCounter();
 });
