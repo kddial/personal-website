@@ -1,6 +1,9 @@
 <script>
   import ResumePreviewImg from '../static/Kevin_Dial_Resume_2023_v2_png.png';
   import ResumePdf from '../static/Kevin_Dial_Resume_2023_v2.pdf';
+  import ThreeDWorldImg from '../static/3dworld-preview.png';
+  import GamegameImg from '../static/gamegame-preview.png';
+  import WavygameImg from '../static/wavygame-preview.png';
 </script>
 
 <h1>Hi! I'm Kevin, welcome to my site :)</h1>
@@ -10,38 +13,58 @@
     <a href={ResumePdf} target="_blank" rel="noreferrer">
       <img class="work-image" src={ResumePreviewImg} alt="resume preview" height="100px" />
     </a>
-    <div class="work-description"><strong>Resume</strong> Here is my resume updated for 2023</div>
+    <div class="work-description">
+      <strong>Resume</strong>
+      Here is my resume updated – 2023
+    </div>
   </div>
 </section>
 
 <!-- work exp -->
-<section />
+<!-- <section /> -->
 
 <!-- school -->
-<section />
+<!-- <section /> -->
 
 <!-- toy projects -->
 <section>
-  <div>
-    <a href="https://3d.kevindial.com/" target="_blank" rel="noreferrer"> 3dworld</a>
-    – using computer's GPU to ray trace a 3D world in the browser - 2021
+  <h2>Toy projects</h2>
+
+  <div class="work-container">
+    <a href="https://3d.kevindial.com/" target="_blank" rel="noreferrer">
+      <img class="work-image" src={ThreeDWorldImg} alt="3d world preview" height="100px" />
+    </a>
+    <div class="work-description">
+      <strong>3dworld</strong>
+      Using computer's GPU to ray trace a 3D world in the browser – 2021
+    </div>
   </div>
 
-  <div>
+  <div class="work-container">
     <a href="https://gamegame-production.up.railway.app/" target="_blank" rel="noreferrer">
-      Gamegame</a
-    >
-    – a websocket jump quest platformer - 2020
+      <img class="work-image" src={GamegameImg} alt="3d world preview" height="100px" />
+    </a>
+    <div class="work-description">
+      <strong>Gamegame</strong>
+      websocket jump quest platformer – 2020
+    </div>
   </div>
 
-  <div>
-    <a href="https://wavy-game.kevindial.com" target="_blank" rel="noreferrer"> Wavygame</a>
-    – html5 canvas game inspired by Flappy bird - 2016
+  <div class="work-container">
+    <a href="https://wavy-game.kevindial.com" target="_blank" rel="noreferrer">
+      <img class="work-image" src={WavygameImg} alt="3d world preview" height="100px" />
+    </a>
+    <div class="work-description">
+      <strong>Wavygame</strong>
+      html5 canvas game inspired by Flappy bird – 2016
+    </div>
   </div>
 </section>
 
 <!-- links -->
 <section class="links">
+  <h2>Links</h2>
+
   <a href="https://github.com/kddial" target="_blank" rel="noreferrer"
     ><i class="fa fa-github" />github
   </a>
@@ -69,7 +92,7 @@
     display: flex;
   }
   .work-image {
-    border: 3px solid black;
+    border: 4px solid black;
     border-radius: 4px;
     transition: 0.2s border-color;
   }
