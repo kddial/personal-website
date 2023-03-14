@@ -21,22 +21,32 @@
 
 <!-- toy projects -->
 <section>
-  <a href="http://kevindial.com/wavy-game/" target="_blank" rel="noreferrer"
-    >Wavy game (html5 canvas) - Feb 2016</a
-  >
+  <div>
+    <a href="https://3d.kevindial.com/" target="_blank" rel="noreferrer"> 3dworld</a>
+    – using computer's GPU to ray trace a 3D world in the browser - 2021
+  </div>
+
+  <div>
+    <a href="https://gamegame-production.up.railway.app/" target="_blank" rel="noreferrer">
+      Gamegame</a
+    >
+    – a websocket jump quest platformer - 2020
+  </div>
+
+  <div>
+    <a href="https://wavy-game.kevindial.com" target="_blank" rel="noreferrer"> Wavygame</a>
+    – html5 canvas game inspired by Flappy bird - 2016
+  </div>
 </section>
 
 <!-- Get page views -->
 
 <!-- 1012 page views -->
 <style>
-  .links {
+  section {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
-
-  section {
     margin: 2rem 0;
   }
 </style>
