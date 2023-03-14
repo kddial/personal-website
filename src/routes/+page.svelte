@@ -4,6 +4,9 @@
   import ThreeDWorldImg from '../static/3dworld-preview.png';
   import GamegameImg from '../static/gamegame-preview.png';
   import WavygameImg from '../static/wavygame-preview.png';
+  import DaytracerImg from '../static/daytracer-preview.png';
+  import AMSImg from '../static/airmilesshops-preview.png';
+  import PepperdataImg from '../static/pepperdata-preview.png';
 </script>
 
 <h1>Hi! I'm Kevin, welcome to my site :)</h1>
@@ -11,7 +14,7 @@
 <section>
   <div class="work-container">
     <a href={ResumePdf} target="_blank" rel="noreferrer">
-      <img class="work-image" src={ResumePreviewImg} alt="resume preview" height="100px" />
+      <img class="work-image" src={ResumePreviewImg} alt="resume preview" />
     </a>
     <div class="work-description">
       <strong>Resume</strong>
@@ -21,10 +24,40 @@
 </section>
 
 <!-- work exp -->
-<!-- <section /> -->
+<section>
+  <h2>Toy projects</h2>
 
-<!-- school -->
-<!-- <section /> -->
+  <div class="work-container">
+    <a href="https://daytracer.app/" target="_blank" rel="noreferrer">
+      <img class="work-image" src={DaytracerImg} alt="daytracer logo" />
+    </a>
+    <div class="work-description">
+      <strong>Daytracer.app</strong>
+      Building a desktop application to help Freelancers track their time and assign time to projects
+      so its easier to build invoices – 2021
+    </div>
+  </div>
+
+  <div class="work-container">
+    <a href="https://dashboard.pepperdata.com" target="_blank" rel="noreferrer">
+      <img class="work-image" src={PepperdataImg} alt="pepperdata dashboard preview" />
+    </a>
+    <div class="work-description">
+      <strong>Pepperdata auth component</strong>
+      Built the auth components which features smooth css transisions between different views – 2018
+    </div>
+  </div>
+
+  <div class="work-container">
+    <a href="https://airmilesshops.ca" target="_blank" rel="noreferrer">
+      <img class="work-image" src={AMSImg} alt="airmilesshops logo" />
+    </a>
+    <div class="work-description">
+      <strong>AirMilesShops.ca</strong>
+      Built the website with a team while working at TribalScale – 2017
+    </div>
+  </div>
+</section>
 
 <!-- toy projects -->
 <section>
@@ -32,7 +65,7 @@
 
   <div class="work-container">
     <a href="https://3d.kevindial.com/" target="_blank" rel="noreferrer">
-      <img class="work-image" src={ThreeDWorldImg} alt="3d world preview" height="100px" />
+      <img class="work-image" src={ThreeDWorldImg} alt="3d world preview" />
     </a>
     <div class="work-description">
       <strong>3dworld</strong>
@@ -42,7 +75,7 @@
 
   <div class="work-container">
     <a href="https://gamegame-production.up.railway.app/" target="_blank" rel="noreferrer">
-      <img class="work-image" src={GamegameImg} alt="3d world preview" height="100px" />
+      <img class="work-image" src={GamegameImg} alt="gamegame preview" />
     </a>
     <div class="work-description">
       <strong>Gamegame</strong>
@@ -52,7 +85,7 @@
 
   <div class="work-container">
     <a href="https://wavy-game.kevindial.com" target="_blank" rel="noreferrer">
-      <img class="work-image" src={WavygameImg} alt="3d world preview" height="100px" />
+      <img class="work-image" src={WavygameImg} alt="wavy game preview" />
     </a>
     <div class="work-description">
       <strong>Wavygame</strong>
@@ -95,6 +128,9 @@
     border: 4px solid black;
     border-radius: 4px;
     transition: 0.2s border-color;
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
   }
   .work-image:hover {
     border-color: rgb(32, 47, 222);
