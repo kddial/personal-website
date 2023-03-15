@@ -15,7 +15,7 @@
 
 <div>
   <h4>Usage</h4>
-  <code>
+  <code class="code-snippet">
     {`
 <h1>Welcome to my internet corner!</h1>
 <Space height={1} />

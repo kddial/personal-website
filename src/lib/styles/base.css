@@ -42,3 +42,7 @@ code.code-snippet {
   width: 100%;
   overflow: auto;
 }
+
+a {
+  color: #48596d;
+}

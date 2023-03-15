@@ -49,7 +49,6 @@
     max-width: 70ch;
   }
   .title-link {
-    color: #48596d;
     font-size: 18px;
     letter-spacing: 0.5px;
   }

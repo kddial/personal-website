@@ -110,19 +110,20 @@
 <!-- links -->
 <section class="links">
   <a href="https://github.com/kddial" target="_blank" rel="noreferrer"
-    ><i class="fa fa-github" />github
+    ><i class="fa fa-github" /> GitHub
   </a>
   <a
     href="https://ca.linkedin.com/in/kevindial"
     target="_blank"
     rel="noreferrer"
-    ><i class="fa fa-linkedin-square" />linkedIn
+    ><i class="fa fa-linkedin-square" /> LinkedIn
   </a>
   <a
     href="http://myanimelist.net/animelist/kddial?status=2"
     target="_blank"
     rel="noreferrer"
-    >myanimelist
+  >
+    MyAnimeList
   </a>
 </section>
 
