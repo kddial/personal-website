@@ -44,5 +44,11 @@ code.code-snippet {
 }
 
 a {
-  color: #48596d;
+  width: fit-content;
+  color: #0e1f6d;
+  transition: 0.2s color;
+}
+
+a:hover {
+  color: rgb(27, 45, 239);
 }

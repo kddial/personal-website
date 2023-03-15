@@ -51,5 +51,6 @@
   .title-link {
     font-size: 18px;
     letter-spacing: 0.5px;
+    width: fit-content;
   }
 </style>
