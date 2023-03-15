@@ -10,8 +10,7 @@
     border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 1rem;
   }
   .card {
     background: pink;

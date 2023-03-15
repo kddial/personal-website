@@ -13,7 +13,9 @@
   import BlogDirectory from '../lib/blog-components/BlogDirectory.svelte';
 </script>
 
-<h1 class="root-title">Hi! I'm Kevin, welcome to my site :)</h1>
+<h1 class="root-title">
+  Hi! I'm Kevin, <br /> welcome to my site :)
+</h1>
 
 <section class="work-projects">
   <WorkPreview

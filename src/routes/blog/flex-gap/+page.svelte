@@ -13,7 +13,7 @@
   solution to give you uniform spacing between elements. Previously I
   would use <code>margin</code> on all elements except for
   <code>first-child</code>
-  and <code>last-child</code>, which was a clunky solution. The gap
+  or <code>last-child</code>, which was a clunky solution. The gap
   property was originally introduced for CSS Grids but it has been
   brought over for Flexbox support since 2021 (see sources).
 </p>
@@ -34,12 +34,12 @@
     border: 1px solid black;
     display: inline-flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
+    gap: 1rem;
   }
   .card {
     background: pink;
     width: 400px;
+    max-width: 80vw;
     height: 50px;
   }
 <\/style>
