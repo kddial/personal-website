@@ -14,7 +14,7 @@
 </script>
 
 <h1 class="root-title">
-  Hi! I'm Kevin, <br /> welcome to my site :)
+  hi! I'm Kevin <br /> welcome to my site :)
 </h1>
 
 <section class="work-projects">
