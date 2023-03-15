@@ -4,7 +4,6 @@
 </script>
 
 <div class="website-body-width">
-  <Space height={0.5} />
   <slot />
-  <Space height={1} />
 </div>
+<Space height={1} />

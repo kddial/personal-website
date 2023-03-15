@@ -13,7 +13,7 @@
   import BlogDirectory from '../lib/blog-components/BlogDirectory.svelte';
 </script>
 
-<h1>Hi! I'm Kevin, welcome to my site :)</h1>
+<h1 class="root-title">Hi! I'm Kevin, welcome to my site :)</h1>
 
 <section class="work-projects">
   <WorkPreview
@@ -129,6 +129,10 @@
 
 <!-- 1012 page views -->
 <style>
+  .root-title {
+    margin-top: 0.25rem;
+  }
+
   section.work-projects {
     display: flex;
     flex-direction: column;

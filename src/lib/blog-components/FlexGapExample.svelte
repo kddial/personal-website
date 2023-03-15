@@ -16,6 +16,7 @@
   .card {
     background: pink;
     width: 400px;
+    max-width: 80vw;
     height: 50px;
   }
 </style>
