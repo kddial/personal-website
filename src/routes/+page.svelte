@@ -102,8 +102,6 @@
 
 <!-- links -->
 <section class="links">
-  <h2>Links</h2>
-
   <a href="https://github.com/kddial" target="_blank" rel="noreferrer"
     ><i class="fa fa-github" />github
   </a>

@@ -22,7 +22,7 @@
     display: flex;
   }
   .work-image {
-    border: 4px solid black;
+    border: 2px solid black;
     border-radius: 4px;
     transition: 0.2s border-color;
     max-width: 100px;
