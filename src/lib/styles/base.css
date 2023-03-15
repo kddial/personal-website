@@ -19,7 +19,7 @@ section.links {
 }
 
 body {
-  background: #ffe1e6;
+  background: #ffe1e6; /* also should be pasted html meta name="theme-color" */
   margin: 0;
   padding: 0;
 }
