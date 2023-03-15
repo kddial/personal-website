@@ -2,6 +2,7 @@
   export let importedImg;
   export let importedImgAltText;
   export let workUrl;
+  export let workTitle;
 </script>
 
 <div class="work-container">
@@ -13,6 +14,7 @@
     />
   </a>
   <div class="work-description">
+    <strong>{workTitle}</strong>
     <slot />
   </div>
 </div>
@@ -30,7 +32,7 @@
     object-fit: contain;
   }
   .work-image:hover {
-    border-color: rgb(32, 47, 222);
+    border-color: rgb(27, 45, 239);
   }
   .work-description {
     padding-left: 1rem;

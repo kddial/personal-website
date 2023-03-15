@@ -22,8 +22,8 @@
     importedImg={ResumePreviewImg}
     importedImgAltText="resume preview"
     workUrl={ResumePdf}
+    workTitle="Resume"
   >
-    <strong>Resume</strong>
     <div>Here is my resume updated – 2023</div>
   </WorkPreview>
 </section>
@@ -35,8 +35,8 @@
     workUrl="https://daytracer.app/"
     importedImg={DaytracerImg}
     importedImgAltText="daytracer logo"
+    workTitle="Daytracer.app"
   >
-    <strong>Daytracer.app</strong>
     <div>
       Building a desktop application to help Freelancers track their
       time and assign time to projects so its easier to build invoices
@@ -48,8 +48,8 @@
     workUrl="https://pepperdata.com"
     importedImg={PepperdataImg}
     importedImgAltText="pepperdata dashboard preview"
+    workTitle="Pepperdata auth component"
   >
-    <strong>Pepperdata auth component</strong>
     <div>
       Built the auth components which features smooth css transisions
       between different views – 2018
@@ -60,8 +60,8 @@
     workUrl="https://airmilesshops.ca"
     importedImg={AMSImg}
     importedImgAltText="airmilesshops logo"
+    workTitle="AirMilesShops.ca"
   >
-    <strong>AirMilesShops.ca</strong>
     <div>
       Built the website with a team while working at TribalScale –
       2017
@@ -76,8 +76,8 @@
     workUrl="https://3d.kevindial.com"
     importedImg={ThreeDWorldImg}
     importedImgAltText="3d world preview"
+    workTitle="3dworld"
   >
-    <strong>3dworld</strong>
     <div>
       Using computer's GPU to ray trace a 3D world in the browser –
       2021
@@ -88,8 +88,8 @@
     workUrl="https://gamegame-production.up.railway.app"
     importedImg={GamegameImg}
     importedImgAltText="gamegame preview"
+    workTitle="Gamegame"
   >
-    <strong>Gamegame</strong>
     <div>websocket jump quest platformer – 2020</div>
   </WorkPreview>
 
@@ -97,8 +97,8 @@
     workUrl="https://wavy-game.kevindial.com"
     importedImg={WavygameImg}
     importedImgAltText="wavy game preview"
+    workTitle="Wavygame"
   >
-    <strong>Wavygame</strong>
     <div>html5 canvas game inspired by Flappy bird – 2016</div>
   </WorkPreview>
 </section>
@@ -126,10 +126,6 @@
   </a>
 </section>
 
-<!-- Get page views -->
-<!-- todo use view-count.js -->
-
-<!-- 1012 page views -->
 <style>
   .root-title {
     margin-top: 0.25rem;
