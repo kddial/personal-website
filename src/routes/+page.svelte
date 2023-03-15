@@ -10,6 +10,7 @@
 
   import WorkPreview from '../lib/components/WorkPreview.svelte';
   import Space from '../lib/components/Space.svelte';
+  import BlogDirectory from '../lib/blog-components/BlogDirectory.svelte';
 </script>
 
 <h1>Hi! I'm Kevin, welcome to my site :)</h1>
@@ -99,6 +100,10 @@
     <div>html5 canvas game inspired by Flappy bird – 2016</div>
   </WorkPreview>
 </section>
+
+<BlogDirectory />
+
+<Space height={2} />
 
 <!-- links -->
 <section class="links">

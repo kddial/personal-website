@@ -1,9 +1,12 @@
 <script>
   import FlexGapExample from '../../../lib/blog-components/FlexGapExample.svelte';
   import Space from '../../../lib/components/Space.svelte';
+  import BlogTitle from '../../../lib/blog-components/BlogTitle.svelte';
+
+  export let data;
 </script>
 
-<h1>Using Flexbox Gap for uniform spacing</h1>
+<BlogTitle data={data} />
 
 <p>
   Using <code>gap</code> inside <code>flexbox</code> is a simple
