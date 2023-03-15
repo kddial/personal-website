@@ -6,7 +6,7 @@
   const blogArray = [Blog1, Blog2, Blog3];
 </script>
 
-<h2>Blogs</h2>
+<h2 id="blog-directory">Blogs</h2>
 <section class="links">
   <ul>
     {#each blogArray as blogData}

@@ -1,2 +1,2 @@
-<a href="/">← home page</a>
+<a href="/#blog-directory">← home page</a>
 <slot />

@@ -124,8 +124,6 @@
   </a>
 </section>
 
-<Space height={4} />
-
 <!-- Get page views -->
 <!-- todo use view-count.js -->
 
