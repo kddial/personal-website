@@ -1,3 +1,11 @@
 p {
   max-width: 70ch;
 }
+
+code {
+  white-space: pre;
+}
+
+h4 {
+  margin: 0.25rem;
+}
