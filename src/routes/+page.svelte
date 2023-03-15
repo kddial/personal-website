@@ -134,10 +134,4 @@
     gap: 2rem;
     margin: 2rem 0;
   }
-
-  section.links {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-  }
 </style>
