@@ -8,8 +8,8 @@
   import AMSImg from '../static/airmilesshops-preview.png';
   import PepperdataImg from '../static/pepperdata-preview.png';
 
-  import WorkPreview from '../lib/WorkPreview.svelte';
-  import Space from '../lib/Space.svelte';
+  import WorkPreview from '../lib/components/WorkPreview.svelte';
+  import Space from '../lib/components/Space.svelte';
 </script>
 
 <h1>Hi! I'm Kevin, welcome to my site :)</h1>
