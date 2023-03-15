@@ -21,7 +21,7 @@
 <h4>Flexbox with gap example</h4>
 <section class="example-body">
   <h5>Code</h5>
-  <code
+  <code class="code-snippet"
     >{`<section>
   <div class="card">Dog</div>
   <div class="card">Cat</div>

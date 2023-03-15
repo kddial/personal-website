@@ -15,7 +15,7 @@
 </p>
 <div>
   <h4>CSS</h4>
-  <code
+  <code class="code-snippet"
     >{`
     p {
       max-width: 70ch;

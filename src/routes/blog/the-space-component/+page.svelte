@@ -17,54 +17,54 @@
   <h4>Usage</h4>
   <code>
     {`
-    <h1>Welcome to my internet corner!</h1>
-    <Space height={1} />
-    <p>This is where i share thoughts</p>
+<h1>Welcome to my internet corner!</h1>
+<Space height={1} />
+<p>This is where i share thoughts</p>
     `}
   </code>
 
   <h4>React component</h4>
-  <code>
+  <code class="code-snippet">
     {`
-    // File name space.js
+// File name space.js
 
-    function Space(props) {
-      const { height = null, width = null } = props;
+function Space(props) {
+  const { height = null, width = null } = props;
 
-      const style = {};
-      if (height) {
-        style.height = \`\${height}rem\`;
-      }
+  const style = {};
+  if (height) {
+    style.height = \`\${height}rem\`;
+  }
 
-      if (width) {
-        style.width = \`\${width}rem\`;
-      }
+  if (width) {
+    style.width = \`\${width}rem\`;
+  }
 
-      return <div className="space" style={style} />;
-    }
-    export default Space;
+  return <div className="space" style={style} />;
+}
+export default Space;
     `}
   </code>
 
   <h4>Svelte component</h4>
-  <code>
+  <code class="code-snippet">
     {`
-    // File name Space.svelte
+// File name Space.svelte
 
-    <script>
-      export let width = false;
-      export let height = false;
+<script>
+  export let width = false;
+  export let height = false;
 
-      if (width) {
-        width = \`\${width}rem\`;
-      }
+  if (width) {
+    width = \`\${width}rem\`;
+  }
 
-      if (height) {
-        height = \`\${height}rem\`;
-      }
-    </script>
+  if (height) {
+    height = \`\${height}rem\`;
+  }
+</script>
 
-    <div class="space" style:width style:height />
+<div class="space" style:width style:height />
     `}
   </code>
 </div>

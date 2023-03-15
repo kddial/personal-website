@@ -30,9 +30,15 @@ body {
   border-radius: 6px;
   margin: 0 auto;
 }
-
 @media screen and (max-width: 820px) {
   .website-body-width {
     border-radius: 0px;
   }
+}
+
+code.code-snippet {
+  background: hsl(240 19% 96% / 1);
+  display: block;
+  width: 100%;
+  overflow: auto;
 }
