@@ -23,17 +23,15 @@ body {
   margin: 0;
   padding: 0;
 }
-.website-body-width {
-  background: white;
+.website-body-width-outer {
   max-width: 800px;
   padding: 1rem;
-  border-radius: 6px;
   margin: 0 auto;
 }
-@media screen and (max-width: 820px) {
-  .website-body-width {
-    border-radius: 0px;
-  }
+.website-body-width-inner {
+  padding: 1rem;
+  border-radius: 20px;
+  background: white;
 }
 
 code.code-snippet {

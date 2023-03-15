@@ -39,7 +39,7 @@
   .card {
     background: pink;
     width: 400px;
-    max-width: 80vw;
+    max-width: 50vw;
     height: 50px;
   }
 <\/style>
