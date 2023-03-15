@@ -24,7 +24,7 @@
     workUrl={ResumePdf}
     workTitle="Resume"
   >
-    <div>Here is my resume updated – 2023</div>
+    <div>Here is my resume – 2023</div>
   </WorkPreview>
 </section>
 
@@ -45,7 +45,7 @@
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://pepperdata.com"
+    workUrl="https://dashboard.pepperdata.com"
     importedImg={PepperdataImg}
     importedImgAltText="pepperdata dashboard preview"
     workTitle="Pepperdata auth component"
