@@ -1,7 +1,3 @@
-<script>
-  import Space from '../../../lib/components/Space.svelte';
-</script>
-
 <h1>The Space component</h1>
 
 <p>
