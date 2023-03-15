@@ -1,3 +1,8 @@
+<script>
+  import FlexGapExample from '../../../lib/blog-components/FlexGapExample.svelte';
+  import Space from '../../../lib/components/Space.svelte';
+</script>
+
 <h1>Using Flexbox Gap for uniform spacing</h1>
 
 <p>
@@ -9,6 +14,40 @@
   property was originally introduced for CSS Grids but it has been
   brought over for Flexbox support since 2021 (see sources).
 </p>
+
+<h4>Flexbox with gap example</h4>
+<section class="example-body">
+  <h5>Code</h5>
+  <code
+    >{`<section>
+  <div class="card">Dog</div>
+  <div class="card">Cat</div>
+  <div class="card">Chicken</div>
+  <div class="card">Cow</div>
+</section>
+
+<style>
+  section {
+    border: 1px solid black;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card {
+    background: pink;
+    width: 400px;
+    height: 50px;
+  }
+<\/style>
+  `}
+  </code>
+
+  <h5>Result</h5>
+  <FlexGapExample />
+</section>
+
+<Space height={2} />
 
 <section class="links">
   <h4>Resources</h4>
@@ -28,3 +67,9 @@
     MDN Browser compatibility for Gap in Flex layout
   </a>
 </section>
+
+<style>
+  .example-body {
+    margin-left: 1rem;
+  }
+</style>
