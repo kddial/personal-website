@@ -17,3 +17,16 @@ section.links {
   flex-direction: column;
   gap: 0.75rem;
 }
+
+body {
+  background: rgb(234, 235, 242);
+  margin: 0;
+  padding: 0;
+}
+.website-body-width {
+  padding: 1rem;
+  border-radius: 6px;
+  background: white;
+  max-width: 800px;
+  margin: 0 auto;
+}

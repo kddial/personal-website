@@ -3,6 +3,8 @@
   import Space from '../lib/components/Space.svelte';
 </script>
 
-<slot />
-
-<Space height={4} />
+<div class="website-body-width">
+  <Space height={0.5} />
+  <slot />
+  <Space height={1} />
+</div>
