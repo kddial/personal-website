@@ -35,8 +35,9 @@
   >
     <strong>Daytracer.app</strong>
     <div>
-      Building a desktop application to help Freelancers track their time and assign time to
-      projects so its easier to build invoices – 2021
+      Building a desktop application to help Freelancers track their
+      time and assign time to projects so its easier to build invoices
+      – 2021
     </div>
   </WorkPreview>
 
@@ -47,7 +48,8 @@
   >
     <strong>Pepperdata auth component</strong>
     <div>
-      Built the auth components which features smooth css transisions between different views – 2018
+      Built the auth components which features smooth css transisions
+      between different views – 2018
     </div>
   </WorkPreview>
 
@@ -57,7 +59,10 @@
     importedImgAltText="airmilesshops logo"
   >
     <strong>AirMilesShops.ca</strong>
-    <div>Built the website with a team while working at TribalScale – 2017</div>
+    <div>
+      Built the website with a team while working at TribalScale –
+      2017
+    </div>
   </WorkPreview>
 </section>
 
@@ -70,7 +75,10 @@
     importedImgAltText="3d world preview"
   >
     <strong>3dworld</strong>
-    <div>Using computer's GPU to ray trace a 3D world in the browser – 2021</div>
+    <div>
+      Using computer's GPU to ray trace a 3D world in the browser –
+      2021
+    </div>
   </WorkPreview>
 
   <WorkPreview
@@ -99,10 +107,16 @@
   <a href="https://github.com/kddial" target="_blank" rel="noreferrer"
     ><i class="fa fa-github" />github
   </a>
-  <a href="https://ca.linkedin.com/in/kevindial" target="_blank" rel="noreferrer"
+  <a
+    href="https://ca.linkedin.com/in/kevindial"
+    target="_blank"
+    rel="noreferrer"
     ><i class="fa fa-linkedin-square" />linkedIn
   </a>
-  <a href="http://myanimelist.net/animelist/kddial?status=2" target="_blank" rel="noreferrer"
+  <a
+    href="http://myanimelist.net/animelist/kddial?status=2"
+    target="_blank"
+    rel="noreferrer"
     >myanimelist
   </a>
 </section>

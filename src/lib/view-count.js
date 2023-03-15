@@ -7,7 +7,8 @@ $(document).ready(function () {
 const addToViewCounter = () => {
   if (sessionStorage) {
     if (!sessionStorage.getItem('view-counter')) {
-      const url = 'https://mn7724hpl4.execute-api.ca-central-1.amazonaws.com/Prod/new-view';
+      const url =
+        'https://mn7724hpl4.execute-api.ca-central-1.amazonaws.com/Prod/new-view';
 
       const timestamp = Date.now(); // in millis
       const randomId = Math.floor(Math.random() * 99);
@@ -17,7 +18,11 @@ const addToViewCounter = () => {
       const postBody = { id, hostname };
       const postFormData = Object.keys(postBody)
         .map((key) => {
-          return encodeURIComponent(key) + '=' + encodeURIComponent(postBody[key]);
+          return (
+            encodeURIComponent(key) +
+            '=' +
+            encodeURIComponent(postBody[key])
+          );
         })
         .join('&');
 
@@ -43,7 +48,8 @@ const addToViewCounter = () => {
 };
 
 const getTotalViewCount = () => {
-  const url = 'https://mn7724hpl4.execute-api.ca-central-1.amazonaws.com/Prod/views';
+  const url =
+    'https://mn7724hpl4.execute-api.ca-central-1.amazonaws.com/Prod/views';
 
   fetch(url, {
     method: 'GET',

@@ -6,7 +6,11 @@
 
 <div class="work-container">
   <a href={workUrl} target="_blank" rel="noreferrer">
-    <img class="work-image" src={importedImg} alt={importedImgAltText} />
+    <img
+      class="work-image"
+      src={importedImg}
+      alt={importedImgAltText}
+    />
   </a>
   <div class="work-description">
     <slot />
