@@ -7,91 +7,87 @@
   import DaytracerImg from '../static/daytracer-preview.png';
   import AMSImg from '../static/airmilesshops-preview.png';
   import PepperdataImg from '../static/pepperdata-preview.png';
+  import WorkPreview from '../lib/work-preview.svelte';
 </script>
 
 <h1>Hi! I'm Kevin, welcome to my site :)</h1>
 
-<section>
-  <div class="work-container">
-    <a href={ResumePdf} target="_blank" rel="noreferrer">
-      <img class="work-image" src={ResumePreviewImg} alt="resume preview" />
-    </a>
-    <div class="work-description">
-      <strong>Resume</strong>
-      Here is my resume updated – 2023
-    </div>
-  </div>
+<section class="work-projects">
+  <WorkPreview
+    importedImg={ResumePreviewImg}
+    importedImgAltText="resume preview"
+    workUrl={ResumePdf}
+  >
+    <strong>Resume</strong>
+    <div>Here is my resume updated – 2023</div>
+  </WorkPreview>
 </section>
 
 <!-- work exp -->
-<section>
-  <h2>Toy projects</h2>
-
-  <div class="work-container">
-    <a href="https://daytracer.app/" target="_blank" rel="noreferrer">
-      <img class="work-image" src={DaytracerImg} alt="daytracer logo" />
-    </a>
-    <div class="work-description">
-      <strong>Daytracer.app</strong>
-      Building a desktop application to help Freelancers track their time and assign time to projects
-      so its easier to build invoices – 2021
+<h2>Work experience</h2>
+<section class="work-projects">
+  <WorkPreview
+    workUrl="https://daytracer.app/"
+    importedImg={DaytracerImg}
+    importedImgAltText="daytracer logo"
+  >
+    <strong>Daytracer.app</strong>
+    <div>
+      Building a desktop application to help Freelancers track their time and assign time to
+      projects so its easier to build invoices – 2021
     </div>
-  </div>
+  </WorkPreview>
 
-  <div class="work-container">
-    <a href="https://dashboard.pepperdata.com" target="_blank" rel="noreferrer">
-      <img class="work-image" src={PepperdataImg} alt="pepperdata dashboard preview" />
-    </a>
-    <div class="work-description">
-      <strong>Pepperdata auth component</strong>
+  <WorkPreview
+    workUrl="https://pepperdata.com"
+    importedImg={PepperdataImg}
+    importedImgAltText="pepperdata dashboard preview"
+  >
+    <strong>Pepperdata auth component</strong>
+    <div>
       Built the auth components which features smooth css transisions between different views – 2018
     </div>
-  </div>
+  </WorkPreview>
 
-  <div class="work-container">
-    <a href="https://airmilesshops.ca" target="_blank" rel="noreferrer">
-      <img class="work-image" src={AMSImg} alt="airmilesshops logo" />
-    </a>
-    <div class="work-description">
-      <strong>AirMilesShops.ca</strong>
-      Built the website with a team while working at TribalScale – 2017
-    </div>
-  </div>
+  <WorkPreview
+    workUrl="https://airmilesshops.ca"
+    importedImg={AMSImg}
+    importedImgAltText="airmilesshops logo"
+  >
+    <strong>AirMilesShops.ca</strong>
+    <div>Built the website with a team while working at TribalScale – 2017</div>
+  </WorkPreview>
 </section>
 
 <!-- toy projects -->
-<section>
-  <h2>Toy projects</h2>
+<h2>Toy projects</h2>
+<section class="work-projects">
+  <WorkPreview
+    workUrl="https://3d.kevindial.com"
+    importedImg={ThreeDWorldImg}
+    importedImgAltText="3d world preview"
+  >
+    <strong>3dworld</strong>
+    <div>Using computer's GPU to ray trace a 3D world in the browser – 2021</div>
+  </WorkPreview>
 
-  <div class="work-container">
-    <a href="https://3d.kevindial.com/" target="_blank" rel="noreferrer">
-      <img class="work-image" src={ThreeDWorldImg} alt="3d world preview" />
-    </a>
-    <div class="work-description">
-      <strong>3dworld</strong>
-      Using computer's GPU to ray trace a 3D world in the browser – 2021
-    </div>
-  </div>
+  <WorkPreview
+    workUrl="https://gamegame-production.up.railway.app"
+    importedImg={GamegameImg}
+    importedImgAltText="gamegame preview"
+  >
+    <strong>Gamegame</strong>
+    <div>websocket jump quest platformer – 2020</div>
+  </WorkPreview>
 
-  <div class="work-container">
-    <a href="https://gamegame-production.up.railway.app/" target="_blank" rel="noreferrer">
-      <img class="work-image" src={GamegameImg} alt="gamegame preview" />
-    </a>
-    <div class="work-description">
-      <strong>Gamegame</strong>
-      websocket jump quest platformer – 2020
-    </div>
-  </div>
-
-  <div class="work-container">
-    <a href="https://wavy-game.kevindial.com" target="_blank" rel="noreferrer">
-      <img class="work-image" src={WavygameImg} alt="wavy game preview" />
-    </a>
-    <div class="work-description">
-      <strong>Wavygame</strong>
-      html5 canvas game inspired by Flappy bird – 2016
-    </div>
-  </div>
+  <WorkPreview
+    workUrl="https://wavy-game.kevindial.com"
+    importedImg={WavygameImg}
+    importedImgAltText="wavy game preview"
+  >
+    <strong>Wavygame</strong>
+    <div>html5 canvas game inspired by Flappy bird – 2016</div>
+  </WorkPreview>
 </section>
 
 <!-- links -->
@@ -114,31 +110,16 @@
 
 <!-- 1012 page views -->
 <style>
-  section {
+  section.work-projects {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2rem;
     margin: 2rem 0;
   }
 
-  .work-container {
-    display: flex;
-  }
-  .work-image {
-    border: 4px solid black;
-    border-radius: 4px;
-    transition: 0.2s border-color;
-    max-width: 100px;
-    max-height: 100px;
-    object-fit: contain;
-  }
-  .work-image:hover {
-    border-color: rgb(32, 47, 222);
-  }
-  .work-description {
-    padding-left: 1rem;
+  section.links {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.75rem;
   }
 </style>
