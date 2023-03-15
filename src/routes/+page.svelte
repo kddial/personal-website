@@ -7,7 +7,9 @@
   import DaytracerImg from '../static/daytracer-preview.png';
   import AMSImg from '../static/airmilesshops-preview.png';
   import PepperdataImg from '../static/pepperdata-preview.png';
-  import WorkPreview from '../lib/work-preview.svelte';
+
+  import WorkPreview from '../lib/WorkPreview.svelte';
+  import Space from '../lib/Space.svelte';
 </script>
 
 <h1>Hi! I'm Kevin, welcome to my site :)</h1>
@@ -104,6 +106,8 @@
     >myanimelist
   </a>
 </section>
+
+<Space height={4} />
 
 <!-- Get page views -->
 <!-- todo use view-count.js -->
