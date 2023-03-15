@@ -90,7 +90,7 @@
     importedImgAltText="gamegame preview"
     workTitle="Gamegame"
   >
-    <div>websocket jump quest platformer – 2020</div>
+    <div>Multiplayer websocket jump quest platformer – 2020</div>
   </WorkPreview>
 
   <WorkPreview
@@ -99,7 +99,7 @@
     importedImgAltText="wavy game preview"
     workTitle="Wavygame"
   >
-    <div>html5 canvas game inspired by Flappy bird – 2016</div>
+    <div>Canvas game inspired by Flappy bird – 2016</div>
   </WorkPreview>
 </section>
 
