@@ -45,7 +45,7 @@
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://dashboard.pepperdata.com"
+    workUrl="https://pepperdata.com"
     importedImg={PepperdataImg}
     importedImgAltText="pepperdata dashboard preview"
     workTitle="Pepperdata auth component"
