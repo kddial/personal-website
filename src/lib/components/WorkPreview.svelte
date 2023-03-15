@@ -14,7 +14,14 @@
     />
   </a>
   <div class="work-description">
-    <strong>{workTitle}</strong>
+    <a
+      class="title-link"
+      href={workUrl}
+      target="_blank"
+      rel="noreferrer"
+    >
+      {workTitle}
+    </a>
     <slot />
   </div>
 </div>
@@ -40,5 +47,10 @@
     flex-direction: column;
     gap: 0.5rem;
     max-width: 70ch;
+  }
+  .title-link {
+    color: #48596d;
+    font-size: 18px;
+    letter-spacing: 0.5px;
   }
 </style>
