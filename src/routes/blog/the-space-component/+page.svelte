@@ -1,4 +1,9 @@
-<h1>The Space component</h1>
+<script>
+  import BlogTitle from '../../../lib/blog-components/BlogTitle.svelte';
+  export let data;
+</script>
+
+<BlogTitle {data} />
 
 <p>
   My favourite way of putting space between content is using a <code

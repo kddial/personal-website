@@ -1,7 +1,9 @@
 <script>
-  import { _data as BlogFlexGapData } from '../../routes/blog/flex-gap/+page.js';
+  import { _data as Blog1 } from '../../routes/blog/flex-gap/+page.js';
+  import { _data as Blog2 } from '../../routes/blog/paragraph-max-width/+page.js';
+  import { _data as Blog3 } from '../../routes/blog/the-space-component/+page.js';
 
-  const blogArray = [BlogFlexGapData];
+  const blogArray = [Blog1, Blog2, Blog3];
 </script>
 
 <h2>Blogs</h2>
@@ -16,5 +18,11 @@
 <style>
   a {
     font-size: 20px;
+  }
+
+  ul {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 </style>

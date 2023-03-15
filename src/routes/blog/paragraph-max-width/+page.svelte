@@ -1,8 +1,11 @@
 <script>
   import Space from '../../../lib/components/Space.svelte';
+  import BlogTitle from '../../../lib/blog-components/BlogTitle.svelte';
+
+  export let data;
 </script>
 
-<h1>Paragraph max width using ch unit</h1>
+<BlogTitle {data} />
 
 <p>
   Paragraphs have a sweet spot for best readability around 50 - 70
