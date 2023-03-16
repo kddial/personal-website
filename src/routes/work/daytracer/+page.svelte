@@ -4,16 +4,37 @@
   import pic1 from '../../../static/daytracer/april-20-2022.png';
   import pic2 from '../../../static/daytracer/july-9-2022.png';
   import pic3 from '../../../static/daytracer/march-16-2023.png';
+
+  const href = 'https://daytracer.app/';
+  const aProps = { target: '_blank', rel: 'noreferrer' };
 </script>
 
 <h1>Daytracer.app</h1>
 
 <p>
-  I've been working on this desktop app since April 2022 and now its
-  March 2023 (about a year). I built the first prototype over a
-  weekend which was a simple electron app that stored app usage as
-  timestamps into a json file. Over time it grew into a calendar
-  weekly view with projects for time assignment.
+  Visit <a {href} {...aProps}>Daytracer.app</a> to download and to see
+  demo video.
+</p>
+
+<p>
+  This idea started after my dissatisfaction after trying multiple
+  paid time tracking software; I always felt like the competition had
+  magical aggregations which resulted in inaccurte total time spent
+  compared to when I tracked it manually. And as a freelancer, time
+  tracking and invoicing were the most time consuming parts of the
+  job, but was essential to me getting paid.
+</p>
+<p>
+  So I built Daytracer since I can trust its time tracking without any
+  odd aggregations, and to streamline my task logging process. In the
+  future it will be able to generate PDF invoices to send to clients.
+</p>
+<p>
+  I've been working on this desktop app for about a year (April 2022
+  to March 2023). I built the first prototype over a weekend which was
+  a simple electron app that stored app usage as timestamps into a
+  json file. Over time it grew into a calendar weekly view with
+  projects for time assignment.
 </p>
 
 <Space height={1} />
@@ -84,7 +105,8 @@
     Pocketbase hosted on EC2 can only scale vertically, but I went
     with this solution for now because its simple and makes for a
     great dev experience as I can run the same cloud env locally on my
-    computer.
+    computer. This simple architecture makes for quick feature
+    iterations which is the project's current priority.
   </p>
 </ul>
 

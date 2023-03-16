@@ -32,10 +32,11 @@
 <h2>Work experience</h2>
 <section class="work-projects">
   <WorkPreview
-    workUrl="https://daytracer.app/"
+    workUrl="/work/daytracer"
     importedImg={DaytracerImg}
     importedImgAltText="daytracer logo"
     workTitle="Daytracer.app"
+    shouldOpenNewTab={false}
   >
     <div>
       Building a desktop application to help Freelancers track their

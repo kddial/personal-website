@@ -3,10 +3,16 @@
   export let importedImgAltText;
   export let workUrl;
   export let workTitle;
+  export let shouldOpenNewTab = true;
+
+  let aProps = {};
+  if (shouldOpenNewTab) {
+    aProps = { target: '_blank', rel: 'noreferrer' };
+  }
 </script>
 
 <div class="work-container">
-  <a href={workUrl} target="_blank" rel="noreferrer">
+  <a href={workUrl} {...aProps}>
     <img
       class="work-image"
       src={importedImg}
@@ -14,12 +20,7 @@
     />
   </a>
   <div class="work-description">
-    <a
-      class="title-link"
-      href={workUrl}
-      target="_blank"
-      rel="noreferrer"
-    >
+    <a class="title-link" href={workUrl} {...aProps}>
       {workTitle}
     </a>
     <slot />
