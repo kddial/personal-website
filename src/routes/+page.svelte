@@ -46,10 +46,11 @@
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://pepperdata.com"
+    workUrl="/work/pepperdata-auth"
     importedImg={PepperdataImg}
     importedImgAltText="pepperdata dashboard preview"
     workTitle="Pepperdata auth component"
+    shouldOpenNewTab={false}
   >
     <div>
       Built the auth components which features smooth css transisions
