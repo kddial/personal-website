@@ -50,3 +50,15 @@ a {
 a:hover {
   color: rgb(27, 45, 239);
 }
+
+ul {
+  padding-left: 0.5rem;
+  list-style: none;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+ul li::before {
+  content: '– ';
+}

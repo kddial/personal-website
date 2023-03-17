@@ -17,12 +17,12 @@
 </p>
 
 <p>
-  This idea started after my dissatisfaction after trying multiple
-  paid time tracking software; I always felt like the competition had
-  magical aggregations which resulted in inaccurte total time spent
+  This idea started after my dissatisfaction from trying multiple paid
+  time tracking software; I always felt like the competition had
+  magical aggregations which resulted in inaccurte total times
   compared to when I tracked it manually. And as a freelancer, time
   tracking and invoicing were the most time consuming parts of the
-  job, but was essential to me getting paid.
+  job, but was essential to getting paid.
 </p>
 <p>
   So I built Daytracer since I can trust its time tracking without any
@@ -144,10 +144,5 @@
   }
   img {
     width: 100%;
-  }
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
   }
 </style>

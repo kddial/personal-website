@@ -22,8 +22,6 @@
 
   ul {
     margin: 0;
-    display: inline-flex;
-    flex-direction: column;
     gap: 1rem;
   }
 </style>
