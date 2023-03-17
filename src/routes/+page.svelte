@@ -54,7 +54,7 @@
   >
     <div>
       Built the auth components which features smooth css transisions
-      between different views – 2018
+      – 2018
     </div>
   </WorkPreview>
 
