@@ -1,12 +1,12 @@
 <script>
-  import ResumePreviewImg from '../../static/Kevin_Dial_Resume_2023_v2_png.png';
-  import ResumePdf from '../../static/Kevin_Dial_Resume_2023_v2.pdf';
-  import ThreeDWorldImg from '../../static/3dworld-preview.png';
-  import GamegameImg from '../../static/gamegame-preview.png';
-  import WavygameImg from '../../static/wavygame-preview.png';
-  import DaytracerImg from '../../static/daytracer-preview.png';
-  import AMSImg from '../../static/airmilesshops-preview.png';
-  import PepperdataImg from '../../static/pepperdata-preview.png';
+  import ResumePreviewImg from '../static/Kevin_Dial_Resume_2023_v2_png.png';
+  import ResumePdf from '../static/Kevin_Dial_Resume_2023_v2.pdf';
+  import ThreeDWorldImg from '../static/3dworld-preview.png';
+  import GamegameImg from '../static/gamegame-preview.png';
+  import WavygameImg from '../static/wavygame-preview.png';
+  import DaytracerImg from '../static/daytracer-preview.png';
+  import AMSImg from '../static/airmilesshops-preview.png';
+  import PepperdataImg from '../static/pepperdata-preview.png';
 
   import WorkPreview from '../lib/components/WorkPreview.svelte';
   import Space from '../lib/components/Space.svelte';

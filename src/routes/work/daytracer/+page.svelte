@@ -1,9 +1,9 @@
 <script>
   import ListDescription from '../../../lib/components/ListDescription.svelte';
   import Space from '../../../lib/components/Space.svelte';
-  import pic1 from '../../../../static/daytracer/april-20-2022.png';
-  import pic2 from '../../../../static/daytracer/july-9-2022.png';
-  import pic3 from '../../../../static/daytracer/march-16-2023.png';
+  import pic1 from '../../../static/daytracer/april-20-2022.png';
+  import pic2 from '../../../static/daytracer/july-9-2022.png';
+  import pic3 from '../../../static/daytracer/march-16-2023.png';
 
   const href = 'https://daytracer.app/';
   const aProps = { target: '_blank', rel: 'noreferrer' };
