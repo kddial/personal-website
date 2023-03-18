@@ -29,7 +29,7 @@
 </section>
 
 <!-- work exp -->
-<h2>Work experience</h2>
+<h2>Work highlights</h2>
 <section class="work-projects">
   <WorkPreview
     workUrl="/work/daytracer"
@@ -41,7 +41,6 @@
     <div>
       Building a desktop application to help Freelancers track their
       time and assign time to projects so its easier to build invoices
-      – 2021
     </div>
   </WorkPreview>
 
@@ -54,7 +53,6 @@
   >
     <div>
       Built the auth components which features smooth css transisions
-      – 2018
     </div>
   </WorkPreview>
 
@@ -65,8 +63,7 @@
     workTitle="AirMilesShops.ca"
   >
     <div>
-      Built the website with a team while working at TribalScale –
-      2017
+      Built the website with a team while working at TribalScale
     </div>
   </WorkPreview>
 </section>

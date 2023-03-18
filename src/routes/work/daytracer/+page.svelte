@@ -12,8 +12,8 @@
 <h1>Daytracer.app</h1>
 
 <p>
-  Visit <a {href} {...aProps}>Daytracer.app</a> to download and to see
-  demo video.
+  Visit <a {href} {...aProps}>Daytracer.app</a> to learn more, see demo
+  video and download the app.
 </p>
 
 <p>
