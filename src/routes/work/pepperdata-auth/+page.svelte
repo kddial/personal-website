@@ -1,6 +1,6 @@
 <script>
-  import pepperdataAuthLoginVideo from '../../../static/pepperdata-auth/pepperdata-auth-login-video.mov';
-  import pepperdataAuthExplainerVideo from '../../../static/pepperdata-auth/pepperdata-auth-explainer-video.mov';
+  import pepperdataAuthLoginVideo from '../../../../static/pepperdata-auth/pepperdata-auth-login-video.mov';
+  import pepperdataAuthExplainerVideo from '../../../../static/pepperdata-auth/pepperdata-auth-explainer-video.mov';
   import Space from '../../../lib/components/Space.svelte';
 </script>
 
