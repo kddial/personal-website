@@ -57,10 +57,11 @@
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://airmilesshops.ca"
+    workUrl="/work/air-miles-shops"
     importedImg={AMSImg}
     importedImgAltText="airmilesshops logo"
     workTitle="AirMilesShops.ca"
+    shouldOpenNewTab={false}
   >
     <div>
       Built the website with a team while working at TribalScale
