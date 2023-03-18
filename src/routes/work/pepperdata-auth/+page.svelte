@@ -2,6 +2,9 @@
   import pepperdataAuthLoginVideo from '../../../media/pepperdata-auth/pepperdata-auth-login-video.mov';
   import pepperdataAuthExplainerVideo from '../../../media/pepperdata-auth/pepperdata-auth-explainer-video.mov';
   import Space from '../../../lib/components/Space.svelte';
+
+  const demoVideoUrl = pepperdataAuthLoginVideo + '#t=0.1';
+  const explainVideoUrl = pepperdataAuthExplainerVideo + '#t=0.1';
 </script>
 
 <h1>Pepperdata auth component</h1>
@@ -14,7 +17,7 @@
 
 <h4>Demo video of the auth component</h4>
 <!-- svelte-ignore a11y-media-has-caption -->
-<video src={pepperdataAuthLoginVideo} controls preload="auto" />
+<video src={demoVideoUrl} controls preload="auto" />
 
 <Space height={2} />
 <h4>How was it built?</h4>
@@ -26,7 +29,7 @@
   shapes.
 </p>
 <!-- svelte-ignore a11y-media-has-caption -->
-<video src={pepperdataAuthExplainerVideo} controls preload="auto" />
+<video src={explainVideoUrl} controls preload="auto" />
 
 <style>
   p {
