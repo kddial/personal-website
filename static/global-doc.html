@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- See http://www.firepad.io/docs/ for detailed embedding docs. -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+    <!-- CodeMirror and its JavaScript mode file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/mode/javascript/javascript.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.17.0/codemirror.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://codemirror.net/theme/yeti.css"
+    />
+
+    <!-- Firepad -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.css"
+    />
+    <script src="https://cdn.firebase.com/libs/firepad/1.4.0/firepad.min.js"></script>
+
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        height: 100%;
+        position: relative;
+      }
+      /* Height / width / positioning can be customized for your use case.
+       For demo purposes, we make firepad fill the entire browser. */
+      #firepad-container {
+        width: 100%;
+        height: 100%;
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+
+  <body onload="init()">
+    <div id="firepad-container"></div>
+
+    <script>
+      function init() {
+        //// Initialize Firebase.
+        //// TODO: replace with your Firebase project configuration.
+        var config = {
+          apiKey: 'AIzaSyArJLWq4pkCELCs56R05g4QbWng66MkzJo',
+          authDomain: 'globaldoc-d5d2b.firebaseapp.com',
+          databaseURL: 'https://globaldoc-d5d2b.firebaseio.com',
+        };
+        firebase.initializeApp(config);
+
+        //// Get Firebase Database reference.
+        var firepadRef = getExampleRef();
+
+        //// Create CodeMirror (with line numbers and the JavaScript mode).
+        var codeMirror = CodeMirror(
+          document.getElementById('firepad-container'),
+          {
+            lineNumbers: true,
+            mode: 'javascript',
+            theme: 'yeti',
+          }
+        );
+
+        //// Create Firepad.
+        var firepad = Firepad.fromCodeMirror(firepadRef, codeMirror);
+      }
+
+      // Helper to get hash from end of URL or generate a random one.
+      function getExampleRef() {
+        var ref = firebase.database().ref();
+        var DOC_HASH = '-Kkx_YGnVdEZUjUxZEXD'; // Hardcoded ID in firebase database
+        ref = ref.child(DOC_HASH);
+
+        if (typeof console !== 'undefined') {
+          console.log('Firebase data: ', ref.toString());
+        }
+        return ref;
+      }
+    </script>
+  </body>
+</html>
