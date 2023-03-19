@@ -39,8 +39,8 @@
     shouldOpenNewTab={false}
   >
     <div>
-      Building a desktop application to help Freelancers track their
-      time and assign time to projects so its easier to build invoices
+      Currently building a desktop application for time tracking and
+      time organization
     </div>
   </WorkPreview>
 
