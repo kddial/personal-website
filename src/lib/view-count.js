@@ -1,4 +1,6 @@
-// todo add view count
+// File came from old personal website
+// TODO: add back view count to pages
+
 
 $(document).ready(function () {
   addToViewCounter();
