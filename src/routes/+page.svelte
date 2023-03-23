@@ -96,10 +96,11 @@
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://wavy-game.kevindial.com"
+    workUrl="/personal/wavygame"
     importedImg={WavygameImg}
     importedImgAltText="wavy game preview"
     workTitle="Wavygame"
+    shouldOpenNewTab={false}
   >
     <div>Canvas game inspired by Flappy bird – 2016</div>
   </WorkPreview>
