@@ -86,10 +86,11 @@
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://gamegame-production.up.railway.app"
+    workUrl="/personal/gamegame"
     importedImg={GamegameImg}
     importedImgAltText="gamegame preview"
     workTitle="Gamegame"
+    shouldOpenNewTab={false}
   >
     <div>Multiplayer websocket jump quest platformer – 2020</div>
   </WorkPreview>
