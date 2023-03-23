@@ -69,14 +69,15 @@
   </WorkPreview>
 </section>
 
-<!-- toy projects -->
-<h2>Toy projects</h2>
+<!-- personal projects -->
+<h2>Personal projects</h2>
 <section class="work-projects">
   <WorkPreview
-    workUrl="https://3d.kevindial.com"
+    workUrl="/personal/3dworld"
     importedImg={ThreeDWorldImg}
     importedImgAltText="3d world preview"
     workTitle="3dworld"
+    shouldOpenNewTab={false}
   >
     <div>
       Using computer's GPU to ray trace a 3D world in the browser –

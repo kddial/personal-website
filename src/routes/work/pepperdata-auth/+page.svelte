@@ -16,7 +16,6 @@
 </ul>
 
 <h4>Demo video of the auth component</h4>
-<!-- svelte-ignore a11y-media-has-caption -->
 <video src={demoVideoUrl} controls preload="auto" />
 
 <Space height={2} />
@@ -28,15 +27,10 @@
   video made using Figma to demonstrate what is going on with simple
   shapes.
 </p>
-<!-- svelte-ignore a11y-media-has-caption -->
 <video src={explainVideoUrl} controls preload="auto" />
 
 <style>
   p {
     margin: 0;
-  }
-
-  video {
-    width: 100%;
   }
 </style>
