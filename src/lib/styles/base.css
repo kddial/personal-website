@@ -62,3 +62,7 @@ ul {
 ul li::before {
   content: '– ';
 }
+
+video {
+  width: 100%;
+}

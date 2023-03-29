@@ -1,12 +1,12 @@
 <script>
-  import ResumePreviewImg from '../static/Kevin_Dial_Resume_2023_v2_png.png';
-  import ResumePdf from '../static/Kevin_Dial_Resume_2023_v2.pdf';
-  import ThreeDWorldImg from '../static/3dworld-preview.png';
-  import GamegameImg from '../static/gamegame-preview.png';
-  import WavygameImg from '../static/wavygame-preview.png';
-  import DaytracerImg from '../static/daytracer-preview.png';
-  import AMSImg from '../static/airmilesshops-preview.png';
-  import PepperdataImg from '../static/pepperdata-preview.png';
+  import ResumePreviewImg from '../media/Kevin_Dial_Resume_2023_v2_png.png';
+  import ResumePdf from '../media/Kevin_Dial_Resume_2023_v2.pdf';
+  import ThreeDWorldImg from '../media/3dworld-preview.png';
+  import GamegameImg from '../media/gamegame-preview.png';
+  import WavygameImg from '../media/wavygame-preview.png';
+  import DaytracerImg from '../media/daytracer-preview.png';
+  import AMSImg from '../media/airmilesshops-preview.png';
+  import PepperdataImg from '../media/pepperdata-preview.png';
 
   import WorkPreview from '../lib/components/WorkPreview.svelte';
   import Space from '../lib/components/Space.svelte';
@@ -29,7 +29,7 @@
 </section>
 
 <!-- work exp -->
-<h2>Work experience</h2>
+<h2>Work highlights</h2>
 <section class="work-projects">
   <WorkPreview
     workUrl="/work/daytracer"
@@ -39,9 +39,8 @@
     shouldOpenNewTab={false}
   >
     <div>
-      Building a desktop application to help Freelancers track their
-      time and assign time to projects so its easier to build invoices
-      – 2021
+      Currently building a desktop application for time tracking and
+      time organization
     </div>
   </WorkPreview>
 
@@ -54,31 +53,31 @@
   >
     <div>
       Built the auth components which features smooth css transisions
-      – 2018
     </div>
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://airmilesshops.ca"
+    workUrl="/work/air-miles-shops"
     importedImg={AMSImg}
     importedImgAltText="airmilesshops logo"
     workTitle="AirMilesShops.ca"
+    shouldOpenNewTab={false}
   >
     <div>
-      Built the website with a team while working at TribalScale –
-      2017
+      Built the website with a team while working at TribalScale
     </div>
   </WorkPreview>
 </section>
 
-<!-- toy projects -->
-<h2>Toy projects</h2>
+<!-- personal projects -->
+<h2>Personal projects</h2>
 <section class="work-projects">
   <WorkPreview
-    workUrl="https://3d.kevindial.com"
+    workUrl="/personal/3dworld"
     importedImg={ThreeDWorldImg}
     importedImgAltText="3d world preview"
     workTitle="3dworld"
+    shouldOpenNewTab={false}
   >
     <div>
       Using computer's GPU to ray trace a 3D world in the browser –
@@ -87,19 +86,21 @@
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://gamegame-production.up.railway.app"
+    workUrl="/personal/gamegame"
     importedImg={GamegameImg}
     importedImgAltText="gamegame preview"
     workTitle="Gamegame"
+    shouldOpenNewTab={false}
   >
     <div>Multiplayer websocket jump quest platformer – 2020</div>
   </WorkPreview>
 
   <WorkPreview
-    workUrl="https://wavy-game.kevindial.com"
+    workUrl="/personal/wavygame"
     importedImg={WavygameImg}
     importedImgAltText="wavy game preview"
     workTitle="Wavygame"
+    shouldOpenNewTab={false}
   >
     <div>Canvas game inspired by Flappy bird – 2016</div>
   </WorkPreview>
